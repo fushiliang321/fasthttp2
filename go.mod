@@ -1,4 +1,4 @@
-module github.com/dgrr/http2
+module github.com/fushiliang321/fasthttp2
 
 go 1.20
 

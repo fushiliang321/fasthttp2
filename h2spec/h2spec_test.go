@@ -6,6 +6,7 @@ import (
 	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
+	http2 "github.com/fushiliang321/fasthttp2"
 	"log"
 	"math/big"
 	"net"
@@ -15,7 +16,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgrr/http2"
 	"github.com/stretchr/testify/require"
 	"github.com/summerwind/h2spec/config"
 	"github.com/summerwind/h2spec/generic"

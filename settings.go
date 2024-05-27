@@ -1,4 +1,4 @@
-package http2
+package fasthttp2
 
 const FrameSettings FrameType = 0x4
 
